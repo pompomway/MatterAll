@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<h2>PositionTag!</h2>
+<html>
+    <head>
+        <title>PositionTag</title>
+        <style>
+            #showcase {
+                width: 50%;
+                height: 50vh;
+            }
+            #button {
+                position: absolute;
+                width: 55px;
+                height: 30px;
+                display: none;
+            }
+            #position {
+                position: absolute;
+                width: 60x;
+                height: 30px;
+                display: none;
+            }
+       
+        </style>
+        <script src="https://static.matterport.com/showcase-sdk/2.0.1-0-g64e7e88/sdk.js"></script>
+        
+        <script src="PositionTag.js" type="text/javascript" defer></script>
+        
+    </head>
+    <body>
+    
+    <div id="container">
+        
+        <iframe id="showcase"  frameBorder="0" allowFullScreen></iframe>
+    </div> 
+   
+    <button id="addTag" type="button" >AddTag</button>
+    <button id="remove" type="button" >Remove</button>
+    <button id="reset" type="button" >Reset</button>
+    <button id="getPoint" type="button" >GetPoint</button>
+    <button id="position" type="button">Get Position</button>
+    <div id="setTags">
+      <label>X:</label>
+      <input type="text" id="getX"/>
+      <label>Label:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" id="lab"/><br>
+      <label>Y:</label>
+      <input type="text" id="getY"/>
+      <label>description:</label>
+      <input type="text" id="des"/><br>
+      <label>Z:</label>
+      <input type="text" id="getZ"/>
+      
+    </div>
+
+    
+    </body>
+      
+</html>
+
+
+

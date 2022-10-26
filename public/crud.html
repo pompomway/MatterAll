@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<h2>Json CRUD</h2>
+<html>
+    <head>
+        <title>Json CRUD</title>
+        <style>
+            #showcase {
+                width: 50%;
+                height: 50vh;
+            }
+            #button {
+                position: absolute;
+                width: 55px;
+                height: 30px;
+                display: none;
+            }
+            #show{
+                position: absolute;
+                top: 55px;
+                left: 900px;
+            }
+            #position {
+                position: absolute;
+                width: 60x;
+                height: 30px;
+                display: none;
+            }
+            
+        </style>
+        <script src="https://static.matterport.com/showcase-sdk/2.0.1-0-g64e7e88/sdk.js"></script>
+
+        <script src="crud.js" type="text/javascript" defer></script>
+        
+    </head>
+
+    
+    <div id="container">
+        <button id="button" type="button">Get Position</button>
+        <iframe id="showcase"  frameBorder="0" allowFullScreen></iframe>
+    </div>
+ 
+    <button id="reset" type="button" >Reset</button>
+    <button id="save" type="button" >Save</button>
+    <button id="PoM" type="button" >TagAdd Mode</button>
+    <button id="tagMove" type="button" >TagMove Mode</button>
+    <button id="remove" type="button" >RemoveAll</button>
+    <button id="tagData" type="button" >TagData</button>
+    <button id="position" type="button">Get Position</button>
+    <label id="message"></label>
+    <form>
+    　<br>
+      <label>------------------Tag追加------------------</label>  <br><br>
+      <label>Label:</label>
+      <input type="text" id="lab"/>
+      <label>description:</label>
+      <input type="text" id="des"/><br><br>
+      <label>------------------Tag削除------------------</label>  <br><br>
+      <label>RemoveTagSid:</label>
+      <input type="text" id="removeSid"/>
+      <button id="oneremove" type="button" >RemoveTag</button>　　<br><br>
+      <label>------------------Tag更新------------------</label>  <br>
+      <label>Sid:</label><label id="showsid"></label>
+      <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Label:</label>
+      <input type="text" class="upText" id="uplab"/>
+      <label>&nbsp;&nbsp;Tag表示:</label>
+      <input type="checkbox" id="showTag" ><br>
+      <label>description:</label>
+      <input type="text" class="upText" id="updes"/>
+      <label>description link:</label>
+      <input type="text" class="upText" id="updeslink"/><br>
+      <label>media:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" class="upText" id="upmedia"/>
+      <select name="list" id="cho">
+        <option value="0">none</option>
+        <option value="1">画像</option>
+        <option value="2">映像</option>
+      </select><br>
+      <label>Stem:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" id="stemHeight"/>
+      <label>&nbsp;&nbsp;Stem表示:</label>
+      <input type="checkbox" id="showStem" ><br>
+      <label>Icon:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" id="iconSrc"/></label>
+      <input type="range" min="0.1" max="1" step="0.1" value="1" id="opacityRange">
+      <br><button id="upTag" type="button">UpdateTag</button><br>
+      
+    </form>
+    <div id="show">
+        <ul id="list"></ul>
+    </div>
+    
+    
+
+    </body>
+ 
+</html>
+
+
+

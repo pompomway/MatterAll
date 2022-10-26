@@ -1,0 +1,94 @@
+[
+  {
+    "sid": "7f7I6eFJ9K3",
+    "label": "Matterport Tag",
+    "description": "  ",
+    "parsedDescription": [
+      {
+        "type": "tag.chunk.text",
+        "text": "  "
+      }
+    ],
+    "mediaSrc": "",
+    "mediaType": "mattertag.media.none",
+    "media": {
+      "type": "mattertag.media.none",
+      "src": ""
+    },
+    "anchorPosition": {
+      "x": 11.557227869046207,
+      "y": -0.0036498677554697156,
+      "z": 0.4181014520479256
+    },
+    "anchorNormal": {
+      "x": 0.001158411481636557,
+      "y": 0.999998711522758,
+      "z": -0.0011113215840090546
+    },
+    "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "enabled": true,
+    "floorId": 0,
+    "floorIndex": 0,
+    "floorInfo": {
+      "id": "0",
+      "sequence": 0
+    },
+    "stemVector": {
+      "x": 0.0009267291853092455,
+      "y": 0.7999989692182063,
+      "z": -0.0008890572672072436
+    },
+    "stemHeight": 0.7999999999999999,
+    "stemVisible": true
+  },
+  {
+    "sid": "oReuPQJhEdn",
+    "label": "Matterport Tag",
+    "description": "  ",
+    "parsedDescription": [
+      {
+        "type": "tag.chunk.text",
+        "text": "  "
+      }
+    ],
+    "mediaSrc": "",
+    "mediaType": "mattertag.media.none",
+    "media": {
+      "type": "mattertag.media.none",
+      "src": ""
+    },
+    "anchorPosition": {
+      "x": 11.143730713984974,
+      "y": 1.0078429221754335,
+      "z": 1.2756990730929891
+    },
+    "anchorNormal": {
+      "x": -0.00447616444904463,
+      "y": -0.00626186835158903,
+      "z": -0.9999703760394968
+    },
+    "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "enabled": true,
+    "floorId": 0,
+    "floorIndex": 0,
+    "floorInfo": {
+      "id": "0",
+      "sequence": 0
+    },
+    "stemVector": {
+      "x": -0.003580931559235704,
+      "y": -0.005009494681271224,
+      "z": -0.7999763008315974
+    },
+    "stemHeight": 0.8,
+    "stemVisible": true
+  }
+]

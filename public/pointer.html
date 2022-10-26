@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script src="https://static.matterport.com/showcase-sdk/2.0.1-0-g64e7e88/sdk.js"></script>
+    <script src="pointer.js" type="text/javascript" defer></script>
+  </head>
+  <!--下方css有設計按鈕位置，若追加其他標籤，如上方追加h2則按鈕顯示位置會偏移而無法點選-->
+  <style>
+    body {
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+      }
+      
+      iframe {
+        height: 100vh;
+        width: 100%;
+      }
+      
+      #text {
+        position: absolute;
+        background: black;
+        width: 270px;
+        color: white;
+        padding: 5px;
+        opacity: 0.6;
+      }
+      
+      #button {
+        position: absolute;
+        width: 60x;
+        height: 30px;
+        display: none;
+      }
+  </style>
+
+  <body>
+    <div id="text"></div>
+    <button id="button" type="button">Get Position</button>
+    <iframe id="showcase" title="test" frameBorder="0" allowFullScreen allow="xr-spatial-tracking"></iframe>
+  </body>
+
+</html>

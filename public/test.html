@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<h2>index!</h2>
+<html>
+    <head>
+        <title>Transient Tag Editor</title>
+        <style>
+            #showcase {
+                width: 50%;
+                height: 50vh;
+            }
+            #button {
+                position: absolute;
+                width: 55px;
+                height: 30px;
+                display: none;
+            }
+            #show{
+                position: absolute;
+                top: 55px;
+                left: 900px;
+            }
+            
+        </style>
+        <script src="https://static.matterport.com/showcase-sdk/2.0.1-0-g64e7e88/sdk.js"></script>
+
+        <script src="test.js" type="text/javascript" defer></script>
+        
+    </head>
+
+    
+    <div id="container">
+        <button id="button" type="button">Get Position</button>
+        <iframe id="showcase"  frameBorder="0" allowFullScreen></iframe>
+    </div>
+    <button id="reset" type="button" >Reset</button>
+    <button id="json" type="button" >json</button>
+    <button id="test" type="button" >test</button>
+    <div id="show">
+        <ul id="list"></ul>
+    </div>
+    </body>
+ 
+</html>
+
+
+

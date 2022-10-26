@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <h2>index!</h2>
+    <head>
+        <title>Index</title>
+        <style>
+            #showcase {
+                width: 50%;
+                height: 50vh;
+            }
+        </style>
+        <script src="https://static.matterport.com/showcase-sdk/2.0.1-0-g64e7e88/sdk.js"></script>
+        <!--defer:開啟新線程,並且腳本在文檔解析完成後執行-->
+        <script src="index.js" type="text/javascript" defer></script>
+        
+    </head>
+
+    <body>
+    <div id="container">
+        <iframe id="showcase"  frameBorder="0" allowFullScreen></iframe>
+    </div>
+    </body>
+</html>
+
+
+
+<!--
+            frameBorder="0": 防止在 周圍繪製邊框<iframe>。
+            allowFullScreen：顯示全屏模式按鈕。
+            allow="vr": 在一些代碼示例中找到但似乎沒有做任何事情。
+            allow="xr-spatial-tracking"：啟用xr 沉浸模式（僅限 SDK Bundle）。
+-->
